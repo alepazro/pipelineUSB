@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - master
+permissions:
+  contents: write  # Necesario para hacer git push
 
 jobs:
   build:
